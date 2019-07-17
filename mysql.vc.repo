@@ -1,0 +1,23 @@
+[mysql-connectors-community]
+name=MySQL Connectors Community
+baseurl=http://mts.mirrors.verycloud.cn/mysql/yum/mysql-connectors-community/el/$releasever/x86_64
+enabled=0
+gpgcheck=0
+
+[mysql-tools-community]
+name=MySQL Tools Community
+baseurl=http://mts.mirrors.verycloud.cn/mysql/yum/mysql-tools-community/el/$releasever/x86_64
+enabled=0
+gpgcheck=0
+
+[mysql57-community]
+name=MySQL 5.7 Community Server
+baseurl=http://mts.mirrors.verycloud.cn/mysql/yum/mysql-5.7-community/el/$releasever/x86_64
+enabled=1
+gpgcheck=0
+
+[mysql8-community]
+name=MySQL 8.0 Community Server
+baseurl=http://mts.mirrors.verycloud.cn/mysql/yum/mysql-8.0-community/el/$releasever/x86_64
+enabled=0
+gpgcheck=0
